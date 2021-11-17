@@ -16,7 +16,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static moon.ioo.TestData.TEST_CITE;
 
-public class ParameterizedTestOfStore {
+public class ParameterizedTestOfStore extends BaseTest {
 
     @DisplayName("Отображение элементов сайдбара")
     @Owner("ioomoon")
@@ -92,7 +92,7 @@ public class ParameterizedTestOfStore {
             "Фруктовые чипсы| Дыня сушеная (чипсы)",
             "Крупа и бобовые| Рис для плова",
             "Снеки и закуски| Курут (курт)",
-            "Чай| Чай Алтайский караван",
+            "Чай| Чай Таёжный сбор",
             "Растительное масло| Масло конопляное 0,5 л.",
     },
             delimiter = '|')
